@@ -10,7 +10,8 @@ int main(){
   cin >> first;
   cout << "\nInsert second :";
   cin >> second;
-  maximum = first<second ? second:first;  //M:The comparison was done by using conditional operator ?
+  //M:The comparison was done by using conditional operator ?
+  maximum = first<second ? second:first;  
   cout<<"\nThe maximum is: "<<maximum;
   cout<<"\n\n";
 }
