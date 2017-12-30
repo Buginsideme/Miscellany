@@ -3,9 +3,9 @@
 #include <iostream>
 using namespace std;
 
-int first, second, maximum;
 
-int main(){
+int main(){ 
+  int first, second, maximum;
   cout << "\nInsert first :";
   cin >> first;
   cout << "\nInsert second :";
