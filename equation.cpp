@@ -8,8 +8,9 @@ risolverà l'equazione nei 3 casi diversi comunicando alla fine il risultato.*/
 #include<math.h>
 using namespace std;
 
-float a,b,c,x,x1,x2,delta;
+
 int main(){
+  float a,b,c,x,x1,x2,delta;
   cout<<"\nInserisci i coefficienti dell'equazione: ax^2 + bx +c=0: ";
   cout<<"\nIl coefficiente di a è: ";
   cin>>a;
