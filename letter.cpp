@@ -3,8 +3,9 @@
 #include<iostream>
 using namespace std;
 
-char lettera;
+
 int main(){
+  char lettera;
   cout<<"\nInserire la lettera da convertire: ";
   cin>>lettera;
   if(lettera>='a' && lettera<='z')
