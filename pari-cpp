@@ -1,0 +1,15 @@
+//legge 10 numeri inseriti da tastiera e ne conta quanti sono pari
+#include<iostream>
+using namespace std;
+
+int num=0,pari=0,x;
+int main(){
+  for(x=1;x<=10; x++){    //M: ciclo per l'inserimento dei numeri
+    cout<<"\nInserire il "<<x<<" numero: ";
+    cin>>num;
+    if(num%2==0)      //M:procedimento per vedere se sono pari
+        pari++;
+  }
+  cout<<"\nSono stati inseriti "<<pari<< " numeri pari";
+  cout<<"\n\n";
+}
